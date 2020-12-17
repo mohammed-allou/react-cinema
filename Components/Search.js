@@ -53,6 +53,11 @@ class Search extends React.Component {
         this.searchedText = text  // Modification du texte recherché à chaque saisie de texte, sans passer par le setState comme avant
         console.log(this.searchedText);
     }
+    _displayDetailForFilm=(idFilm)=>{
+        this.props.navigation.navigate('FilmDetail',{idFilm : idFilm})
+        console.log('Display film with id' + idFilm)
+        
+    }
     render() {
         console.log('RENDER');
         console.log(this.state.isLoading);
@@ -72,7 +77,7 @@ class Search extends React.Component {
                 <FlatList
                     data={this.state.films}
                     keyExtractor={(item) => item.id.toString()}
-                    renderItem={({ item }) => <FilmItem film={item} />}
+                    renderItem={({ item }) => <FilmItem film={item} displayDetailForFilm={this._displayDetailForFilm} />}
 
                     onEndReachedThreshold={0.5}
                     onEndReached={() => {
@@ -90,7 +95,6 @@ class Search extends React.Component {
 const styles = StyleSheet.create({
     main_container: {
         flex: 1,
-        marginTop: 20,
         alignItems: 'center',
     },
     textinput: {
