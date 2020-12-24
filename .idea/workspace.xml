@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Components/FlexBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/FlexBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +48,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1608656687738">
+    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1608674575807">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1608656687738" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1608656199656">
+    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1608674575807" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1608674442474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1608656199656" />
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1608674442474" />
   </component>
 </project>
